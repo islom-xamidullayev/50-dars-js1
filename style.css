@@ -1,0 +1,73 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  background-color: rgb(54, 51, 51);
+  color: white;
+  margin-top: 60px;
+  padding: 30px 10px;
+  border-radius: 30px;
+  border: 1px, solid, black;
+}
+.card h1 {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.stop-watch＿controller {
+    display: flex;
+}
+
+#btn-start,
+#btn-stop,
+#btn-restart {
+    padding: 10px;
+   font-weight: 500;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    display: block;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+
+
+#btn-start {
+    background-color: rgb(0, 179, 255);
+    box-shadow: -1px 3px 27px 9px rgb(42, 166, 255);
+   
+}
+
+#btn-stop {
+    background-color: brown;
+    box-shadow: -1px 3px 27px 9px  rgb(245, 49, 27);
+}
+
+#btn-restart  {
+    background-color: lime;
+    box-shadow: -1px 3px 27px 9px  rgb(27, 245, 38);
+    
+}
